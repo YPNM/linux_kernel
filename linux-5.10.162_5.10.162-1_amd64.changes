@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 23 Feb 2023 02:34:05 +0600
+Source: linux-5.10.162
+Binary: linux-headers-5.10.162 linux-image-5.10.162 linux-image-5.10.162-dbg linux-libc-dev
+Architecture: amd64
+Version: 5.10.162-1
+Distribution: bullseye
+Urgency: low
+Maintainer: root <root@debian>
+Changed-By: root <root@debian>
+Description:
+ linux-headers-5.10.162 - Linux kernel headers for 5.10.162 on amd64
+ linux-image-5.10.162 - Linux kernel, version 5.10.162
+ linux-image-5.10.162-dbg - Linux kernel debugging symbols for 5.10.162
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.10.162 (5.10.162-1) bullseye; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 4d9ba81bf5fef72427046d518552f6fc6a23b35c 5532 linux-5.10.162_5.10.162-1_amd64.buildinfo
+ 22a3a2794285bde524206c03ba2de530c3df33ca 8104348 linux-headers-5.10.162_5.10.162-1_amd64.deb
+ 243838e62daf526e96378d79b04b9389e690adc0 768801384 linux-image-5.10.162-dbg_5.10.162-1_amd64.deb
+ 54862008ff61907fc24d0dd8a7183200269a6758 55025804 linux-image-5.10.162_5.10.162-1_amd64.deb
+ 9e55512ed4f21539b8a0c06a2fb700699ec06195 1137452 linux-libc-dev_5.10.162-1_amd64.deb
+Checksums-Sha256:
+ 5f30f5defe85c4af4eeb8bee291e4d582332da930715a2eaf800f05c4133f7b5 5532 linux-5.10.162_5.10.162-1_amd64.buildinfo
+ 3d1664165c1a6b84219f5fdd206a70ab4aa595d16d5444e1f265be54f459b72a 8104348 linux-headers-5.10.162_5.10.162-1_amd64.deb
+ c71d3cd24407c23d74f27457bc1417159163376e9a3fa18c7c7a5970ef31044e 768801384 linux-image-5.10.162-dbg_5.10.162-1_amd64.deb
+ 6d3244cb8ec6f17bc353ec8d9abefa7d2716aeab8c2b6d5b87a1fb1c6179db0f 55025804 linux-image-5.10.162_5.10.162-1_amd64.deb
+ 77a31293f96ddfb65a9e0e6175a21851025e66bcc880e40b9f90eb956fd20c22 1137452 linux-libc-dev_5.10.162-1_amd64.deb
+Files:
+ 0f6a7d20a32594e6c2a178eb52562ed8 5532 kernel optional linux-5.10.162_5.10.162-1_amd64.buildinfo
+ ffc52122ca5a76a4acec86e94f95195a 8104348 kernel optional linux-headers-5.10.162_5.10.162-1_amd64.deb
+ cf805c5fa2d52247c953fabb6c92808a 768801384 debug optional linux-image-5.10.162-dbg_5.10.162-1_amd64.deb
+ c1f52058232eb265379e7cc93afab18b 55025804 kernel optional linux-image-5.10.162_5.10.162-1_amd64.deb
+ d2d54fa8c1820002cf9c9d4e798dcbbb 1137452 devel optional linux-libc-dev_5.10.162-1_amd64.deb
