@@ -1,0 +1,2 @@
+/home/yan/linux_kernel/hello_world_with_application_kernel_module/hello_app.o
+
