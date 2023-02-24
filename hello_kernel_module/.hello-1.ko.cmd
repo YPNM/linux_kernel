@@ -1,0 +1,1 @@
+cmd_/home/yan/linux_kernel/hello_kernel_module/hello-1.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T arch/x86/module.lds -o /home/yan/linux_kernel/hello_kernel_module/hello-1.ko /home/yan/linux_kernel/hello_kernel_module/hello-1.o /home/yan/linux_kernel/hello_kernel_module/hello-1.mod.o;  true

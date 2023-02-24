@@ -1,0 +1,1 @@
+cmd_/home/yan/linux_kernel/hello_kernel_module/modules.order := {   echo /home/yan/linux_kernel/hello_kernel_module/hello-1.ko; :; } | awk '!x[$$0]++' - > /home/yan/linux_kernel/hello_kernel_module/modules.order
